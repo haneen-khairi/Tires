@@ -21,7 +21,10 @@ body p {
 	font-weight: 300;
 	line-height: 1.6923;
 }
-
+a:hover,a:focus{
+	color:#f7b056!important;
+	text-decoration: none;
+}
 select:focus {
 	outline-style: none;
 }
@@ -712,6 +715,11 @@ img.pull-left {
 }
 .social-links > li > a:hover {
 	text-decoration: none;
+	
+    color: #f7b056;
+    border-color: #f7b056;
+    transform: scale(1.02);
+    box-shadow: 1px 1px 10px #fff;
 }
 
 .wrap-link-img {
