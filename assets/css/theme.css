@@ -22,7 +22,7 @@ body p {
 	line-height: 1.6923;
 }
 a:hover,a:focus{
-	color:#f7b056!important;
+	color:#f7b056 ;
 	text-decoration: none;
 }
 select:focus {
